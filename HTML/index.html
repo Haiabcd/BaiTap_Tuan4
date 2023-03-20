@@ -1,129 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bai_Tap_Tuan4</title>
-    <style>
-        #wrapper {
-            display: flex;
-            justify-content: center;
-        }
-        
-        #container {
-            display: flex;
-            justify-content: space-between;
-            width: 1440px;
-        }
-        
-        #center {
-            width: 910px;
-            background-color: bisque;
-        }
-        
-        #right {
-            width: 440px;
-            background-color: aqua;
-        }
-        
-        #left {
-            width: 90px;
-            height: 870px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        
-        #left_above {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        #below {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .item {
-            width: 32px;
-            margin-top: 50px;
-        }
-        
-        #setting {
-            margin-top: 36px;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
-
-    <body>
-        <div id="wrapper">
-            <div id="container">
-                <div id="left">
-                    <div id="left_above">
+    <div id="wrapper">
+        <div id="container">
+            <div class="left"> 
+                    <div class="left-top">
                         <img class="item" src="../images/logo.png" alt="">
                         <img class="item" src="../images/home.png" alt="">
+                        <img class="item" src="../images/as.png" alt="">
+                        <img class="item" src="../images/calender.png" alt="">
                         <img class="item" src="../images/cam.png" alt="">
-                        <img class="item" src="../images/chatting.png" alt="">
                         <img class="item" src="../images/user.png" alt="">
                     </div>
+    
+                    <div class="left-bottom">
+                        <img id="image" src="../images/avatar.png" alt="">
+                        <img id="setting" src="../images/setting.png" alt="">
+                    </div>
+            </div>
+    
+            <div class="center"> 
 
-                    <div id="below">
-                        <img src="../images/avatar.png" width="44" alt="">
-                        <img id="setting" src="../images/setting.png" width="44" alt="">
+                <div class="nav">
+                    <div class="nav-top">
+                        <h2>Meeting title</h2>
+                        <p><span></span>12:00</p>
+                    </div>
+
+                    <div class="nav-bottom">
+                        <div class="internal">
+                            <img src="../images/user.png" alt="">
+                            <span>Internal</span>
+                        </div>
+
+                        <div class="calender">
+                            <img src="../images/calender_small.png" alt="">
+                            <span>Sep 02, 2022  | </span>
+                        </div>
+
+                        <div class="time">
+                            <span> 08:00 - 09:00 AM</span>
+                        </div>
                     </div>
                 </div>
-                <div id="center">center</div>
-                <div class="video-main">
-                    <img src="../images/img_big.png" alt="">
-                    <img src="../images/mic_color.png" alt="">
-                    <p><span></span>Benjamin Crawford</p>
+
+                <div class="content">
+                    <div class="Video-Big">
+                        <img src="../images/img_big.png" alt="">
+                        <img src="../images/mic_color.png" alt="">
+                        <p><span></span>Benjamin Crawford</p>
+                    </div>
+
+                    <div class="video-small">
+                        <div class="Three-small">
+                            <img src="../images/img2.png" alt="">
+                            <img src="../images/mic_grey_color.png" alt="">
+                            <p><span></span>Christian Scott</p>
+                        </div>
+
+                        <div class="Three-small">
+                            <img src="../images/img1.png" alt="">
+                            <img src="../images/mic_grey_color.png" alt="">
+                            <p><span></span>Deborah Chu</p>
+                        </div>
+
+                        <div class="Three-small">
+                            <img src="../images/img.png" alt="">
+                            <img src="../images/mic_grey_color.png" alt="">
+                            <p><span></span>Jordan Nieves</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="video">
-                    <div class="video-small">
-                        <img src="../images/img2.png" alt=””>
-                        <img src="../images/mic_grey_color.png" alt="">
-                        <p><span></span>Christian Scott</p>
-                    </div>
-                    <div class="video-small">
-                        <img src="../images/img1.png" alt="">
-                        <img src="../images/mic_grey_color.png" alt="">
-                        <p><span></span>Christian Scott</p>
-                    </div>
-                    <div class="video-small">
-                        <img src="../images/img.png" alt=">
-                        <img src=" ../images/mic_grey_color.png " alt=" ">
-                        <p><span></span>Christian Scott</p>
-                    </div>
-                </div>
-                <div class=”footer”>
-                    <img src= "../images/mic_grey_color.png " alt=">
-                        <img src="cam_color.png" alt="">
-                        <img src="../images/speaker_grey_color.png" alt="">
-                        <span>End meeting</span>
-                        <img src="Button 2179.png” alt=" ">
-                    <img src="share.png " alt=" ">
-                    <img src="3cham.png " alt=" ">
+
+                <div class="button">
+                    <img src="../images/mic_grey_color.png" alt="">
+                    <img src="../images/cam_color.png" alt="">
+                    <img src="../images/speaker_grey_color.png" alt="">
+                    <span>End meeting</span>
+                    <img src="../images/Button 2179.png" alt="">
+                    <img src="../images/share.png" alt="">
+                    <img src="../images/as.png" alt="">
                 </div>
             </div>
+    
+            <div class="right">
+                <div class="participants">
+                    <div class="par">
+                        <div class="titile">
+                            <h2>Participants <span> 4 </span></h2>
+                        </div>
+
+                        <div>
+                            <span>+ Add</span>
+                        </div>
+                    </div>
+
+                    <div class="add">
+                        <div class="user">
+                            <img src="../images/avatar 1322.png" alt="">
+                            <span>Benjamin Crawford</span>
+                        </div>
+
+                        <div class="icon">
+                            <img src="../images/mic1.png" alt="">
+                            <img src="../images/cam_small.png" alt="">
+                            <span>...</span>
+                        </div>
+                    </div>
+
+                    <div class="add">
+                        <div class="user">
+                            <img src="../images/avatar 1323.png" alt="">
+                            <span>Christian Scott</span>
+                        </div>
+
+                        <div class="icon">
+                            <img src="../images/mic1.png" alt="">
+                            <img src="../images/cam_small.png" alt="">
+                            <span>...</span>
+                        </div>
+                    </div>
+
+                    <div class="add">
+                        <div class="user">
+                            <img src="../images/avatar 1324.png" alt="">
+                            <span>Deborah Chu</span>
+                        </div>
+
+                        <div class="icon">
+                            <img src="../images/mic1.png" alt="">
+                            <img src="../images/cam_small.png" alt="">
+                            <span>...</span>
+                        </div>
+
+                    </div>
+
+                    <div class="add">
+                        <div class="user">
+                            <img src="../images/avatar 1325.png" alt="">
+                            <span>Jordan Nieves</span>
+                        </div>
+
+                        <div class="icon">
+                            <img src="../images/mic1.png" alt="">
+                            <img src="../images/cam_small.png" alt="">
+                            <span>...</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="chat">
+                    <h2>Chat</h2>
+                    <div class="Comment">
+                        <div class="cmt">
+                            <div class="person">
+                                <img src="../images/avatar 1326.png" alt="">
+                                <span>Deborah Chu</span>
+                                <span>1:12 PM</span>
+                            </div>
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="cmt">
+                            <div class="person">
+                                <img src="../images/avatar 1327.png" alt="">
+                                <span>Jordan Nieves</span>
+                                <span>1:12 PM</span>
+                            </div>
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="cmt">
+                            <div class="person">
+                                <img src="../images/avatar 1328.png" alt="">
+                                <span>Benjamin Crawford</span>
+                                <span>1:12 PM</span>
+                            </div>
+                            <img class="text" src="../images/WE.JPG" alt="">
+                        </div>
+
+                        <div class="cmt">
+                            <div class="person">
+                                <img src="../images/avatar 1329.png" alt="">
+                                <span style="color: black;">Christian Scott</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input">
+                        <input type="text" placeholder="AddTyping...">
+                        <img src="../images/send.png" alt="">
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-        <div id="right ">right</div>
-
-        </div>
-
-
-        </div>
-
-    </body>
-
+        
+    </div>
 </body>
-
 </html>
